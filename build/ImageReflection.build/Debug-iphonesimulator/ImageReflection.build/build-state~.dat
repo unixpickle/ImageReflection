@@ -1,0 +1,306 @@
+TImageReflection
+v7
+r0
+t310866103.478932
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/Info.plist ImageReflection-Info.plist
+cCompileXIB /Users/alex/Desktop/ImageReflection/MainWindow.xib
+cCompileXIB /Users/alex/Desktop/ImageReflection/ImageReflectionViewController.xib
+cCpResource build/Debug-iphonesimulator/ImageReflection.app/squirell_monkey.jpg squirell_monkey.jpg
+cProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageReflection_Prefix-fgoruochkmhzdogfcfnjyvvzmgxn/ImageReflection_Prefix.pch.gch ImageReflection_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/main.o /Users/alex/Desktop/ImageReflection/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflectionAppDelegate.o /Users/alex/Desktop/ImageReflection/Classes/ImageReflectionAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflectionViewController.o /Users/alex/Desktop/ImageReflection/Classes/ImageReflectionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/UIImage+Reflection.o /Users/alex/Desktop/ImageReflection/Classes/UIImage+Reflection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection normal i386
+cGenerateDSYMFile /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app.dSYM /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection
+cTouch /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk
+c000000004C215A8C0000000000000132
+t1277254284
+s306
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004BFDFE39000000000027C7D0
+t1274936889
+s2607056
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004BFDFE7C000000000029D5D0
+t1274936956
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004BFDFE6E0000000000001466
+t1274936942
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C0470BB00000000000009CD
+t1275359419
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C0471620000000001D47210
+t1275359586
+s30700048
+
+N/Users/alex/Desktop/ImageReflection/Classes/ImageReflectionAppDelegate.h
+c000000004CD73697000000000000020E
+t1289172631
+s526
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/ImageReflection/Classes/ImageReflectionAppDelegate.m
+c000000004CD736970000000000000AB2
+t1289172631
+s2738
+i"ImageReflectionAppDelegate.h"
+i"ImageReflectionViewController.h"
+
+N/Users/alex/Desktop/ImageReflection/Classes/ImageReflectionViewController.h
+c000000004CD738DB000000000000017C
+t1289173211
+s380
+i<UIKit/UIKit.h>
+i"UIImage+Reflection.h"
+
+N/Users/alex/Desktop/ImageReflection/Classes/ImageReflectionViewController.m
+c000000004CD738FA0000000000000616
+t1289173242
+s1558
+i"ImageReflectionViewController.h"
+
+N/Users/alex/Desktop/ImageReflection/Classes/UIImage+Reflection.h
+c000000004CD738F30000000000000109
+t1289173235
+s265
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/ImageReflection/Classes/UIImage+Reflection.m
+c000000004CD738F800000000000010A2
+t1289173240
+s4258
+i"UIImage+Reflection.h"
+
+N/Users/alex/Desktop/ImageReflection/ImageReflectionViewController.xib
+c000000004CD739310000000000004B4D
+t1289173297
+s19277
+
+N/Users/alex/Desktop/ImageReflection/ImageReflection_Prefix.pch
+c000000004CD7369700000000000000C7
+t1289172631
+s199
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/ImageReflection/MainWindow.xib
+c000000004CD736970000000000004E89
+t1289172631
+s20105
+
+N/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app
+t1289173303
+s272
+
+N/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app.dSYM
+t1289173303
+s102
+
+N/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection
+t1289173303
+s20096
+
+N/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflectionViewController.nib
+t1289173301
+s1201
+
+N/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/Info.plist
+t1289173300
+s629
+
+N/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/MainWindow.nib
+t1289173301
+s1139
+
+N/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/PkgInfo
+t1289173300
+s8
+
+N/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/squirell_monkey.jpg
+t1289173301
+s23940
+
+N/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflection.LinkFileList
+c000000004CD739340000000000000259
+t1289173300
+s601
+
+N/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflectionAppDelegate.o
+t1289173303
+s48280
+
+N/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflectionViewController.o
+t1289173303
+s36096
+
+N/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/UIImage+Reflection.o
+t1289173303
+s12476
+
+N/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/main.o
+t1289173303
+s6296
+
+N/Users/alex/Desktop/ImageReflection/main.m
+c000000004CD736970000000000000170
+t1289172631
+s368
+i<UIKit/UIKit.h>
+
+N/Users/alex/Desktop/ImageReflection/squirell_monkey.jpg
+c000000004CD738C10000000000005D84
+t1289173185
+s23940
+
+N/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageReflection_Prefix-fgoruochkmhzdogfcfnjyvvzmgxn/ImageReflection_Prefix.pch.gch
+t1289173302
+s15232016
+
+NImageReflection-Info.plist
+c000000004CD73697000000000000038D
+t1289172631
+s909
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies310866100#310866100#0(0"0(0#1#0"8607196576#0"0#
+
+CCompileC build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflectionAppDelegate.o /Users/alex/Desktop/ImageReflection/Classes/ImageReflectionAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310866102.730259
+e310866103.146037
+r1
+xCompileC
+xbuild/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflectionAppDelegate.o
+x/Users/alex/Desktop/ImageReflection/Classes/ImageReflectionAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/alex/Desktop/ImageReflection/Classes/ImageReflectionAppDelegate.m310866102#310866103#0(0"0(0#0#72"/Users/alex/Desktop/ImageReflection/Classes/ImageReflectionAppDelegate.m8620218336#2080"    cd /Users/alex/Desktop/ImageReflection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-generated-files.hmap -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-own-target-headers.hmap -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-all-target-headers.hmap -iquote /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-project-headers.hmap -F/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator -I/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/DerivedSources/i386 -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageReflection_Prefix-fgoruochkmhzdogfcfnjyvvzmgxn/ImageReflection_Prefix.pch -c /Users/alex/Desktop/ImageReflection/Classes/ImageReflectionAppDelegate.m -o /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflectionAppDelegate.o0#
+
+CCompileC build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflectionViewController.o /Users/alex/Desktop/ImageReflection/Classes/ImageReflectionViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310866103.111399
+e310866103.192353
+r1
+xCompileC
+xbuild/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflectionViewController.o
+x/Users/alex/Desktop/ImageReflection/Classes/ImageReflectionViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@83"Compile /Users/alex/Desktop/ImageReflection/Classes/ImageReflectionViewController.m310866103#310866103#0(0"0(0#0#75"/Users/alex/Desktop/ImageReflection/Classes/ImageReflectionViewController.m8620643744#2086"    cd /Users/alex/Desktop/ImageReflection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-generated-files.hmap -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-own-target-headers.hmap -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-all-target-headers.hmap -iquote /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-project-headers.hmap -F/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator -I/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/DerivedSources/i386 -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageReflection_Prefix-fgoruochkmhzdogfcfnjyvvzmgxn/ImageReflection_Prefix.pch -c /Users/alex/Desktop/ImageReflection/Classes/ImageReflectionViewController.m -o /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflectionViewController.o0#
+
+CCompileC build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/UIImage+Reflection.o /Users/alex/Desktop/ImageReflection/Classes/UIImage+Reflection.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310866103.146146
+e310866103.213999
+r1
+xCompileC
+xbuild/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/UIImage+Reflection.o
+x/Users/alex/Desktop/ImageReflection/Classes/UIImage+Reflection.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/alex/Desktop/ImageReflection/Classes/UIImage+Reflection.m310866103#310866103#0(0"0(0#0#64"/Users/alex/Desktop/ImageReflection/Classes/UIImage+Reflection.m8607315520#2064"    cd /Users/alex/Desktop/ImageReflection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-generated-files.hmap -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-own-target-headers.hmap -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-all-target-headers.hmap -iquote /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-project-headers.hmap -F/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator -I/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/DerivedSources/i386 -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageReflection_Prefix-fgoruochkmhzdogfcfnjyvvzmgxn/ImageReflection_Prefix.pch -c /Users/alex/Desktop/ImageReflection/Classes/UIImage+Reflection.m -o /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/UIImage+Reflection.o0#
+
+CCompileC build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/main.o /Users/alex/Desktop/ImageReflection/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s310866102.729289
+e310866103.111302
+r1
+xCompileC
+xbuild/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/main.o
+x/Users/alex/Desktop/ImageReflection/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@50"Compile /Users/alex/Desktop/ImageReflection/main.m310866102#310866103#0(0"0(0#0#42"/Users/alex/Desktop/ImageReflection/main.m8620683680#2028"    cd /Users/alex/Desktop/ImageReflection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-generated-files.hmap -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-own-target-headers.hmap -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-all-target-headers.hmap -iquote /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-project-headers.hmap -F/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator -I/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/DerivedSources/i386 -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/DerivedSources -include /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageReflection_Prefix-fgoruochkmhzdogfcfnjyvvzmgxn/ImageReflection_Prefix.pch -c /Users/alex/Desktop/ImageReflection/main.m -o /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /Users/alex/Desktop/ImageReflection/ImageReflectionViewController.xib
+s310866100.542036
+e310866101.374553
+r1
+xCompileXIB
+x/Users/alex/Desktop/ImageReflection/ImageReflectionViewController.xib
+lSLF07#2@44"CompileXIB ImageReflectionViewController.xib310866100#310866101#0(0"0(0#0#69"/Users/alex/Desktop/ImageReflection/ImageReflectionViewController.xib8616949728#607"    cd /Users/alex/Desktop/ImageReflection    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflectionViewController.nib /Users/alex/Desktop/ImageReflection/ImageReflectionViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCompileXIB /Users/alex/Desktop/ImageReflection/MainWindow.xib
+s310866100.541384
+e310866101.380886
+r1
+xCompileXIB
+x/Users/alex/Desktop/ImageReflection/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib310866100#310866101#0(0"0(0#0#50"/Users/alex/Desktop/ImageReflection/MainWindow.xib8618373824#569"    cd /Users/alex/Desktop/ImageReflection    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/MainWindow.nib /Users/alex/Desktop/ImageReflection/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk0#
+
+CCpResource build/Debug-iphonesimulator/ImageReflection.app/squirell_monkey.jpg squirell_monkey.jpg
+s310866101.374639
+e310866101.405119
+r1
+xCpResource
+xbuild/Debug-iphonesimulator/ImageReflection.app/squirell_monkey.jpg
+xsquirell_monkey.jpg
+lSLF07#2@24"Copy squirell_monkey.jpg310866101#310866101#0(0"0(0#0#55"/Users/alex/Desktop/ImageReflection/squirell_monkey.jpg8607258720#462"    cd /Users/alex/Desktop/ImageReflection    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/alex/Desktop/ImageReflection/squirell_monkey.jpg /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app0#
+
+CGenerateDSYMFile /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app.dSYM /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection
+s310866103.456707
+e310866103.476149
+r1
+xGenerateDSYMFile
+x/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app.dSYM
+x/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection
+lSLF07#2@133"GenerateDSYMFile build/Debug-iphonesimulator/ImageReflection.app.dSYM build/Debug-iphonesimulator/ImageReflection.app/ImageReflection310866103#310866103#0(0"0(0#0#99"/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection8616847968#398"    cd /Users/alex/Desktop/ImageReflection    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection -o /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app.dSYM0#
+
+CLd /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection normal i386
+s310866103.214087
+e310866103.456612
+r1
+xLd
+x/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection
+xnormal
+xi386
+lSLF07#2@104"Link /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection310866103#310866103#0(0"0(0#0#0"8619933504#925"    cd /Users/alex/Desktop/ImageReflection    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -L/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator -F/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator -filelist /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/Objects-normal/i386/ImageReflection.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -o /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/ImageReflection0#
+
+CProcessInfoPlistFile /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/Info.plist ImageReflection-Info.plist
+s310866100.529239
+e310866100.541308
+r1
+xProcessInfoPlistFile
+x/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/Info.plist
+xImageReflection-Info.plist
+lSLF07#2@34"Process ImageReflection-Info.plist310866100#310866100#0(0"0(0#0#62"/Users/alex/Desktop/ImageReflection/ImageReflection-Info.plist8619076544#494"    cd /Users/alex/Desktop/ImageReflection    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ImageReflection-Info.plist -genpkginfo /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app/Info.plist0#
+
+CProcessPCH /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageReflection_Prefix-fgoruochkmhzdogfcfnjyvvzmgxn/ImageReflection_Prefix.pch.gch ImageReflection_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s310866101.405391
+e310866102.729092
+r1
+xProcessPCH
+x/var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageReflection_Prefix-fgoruochkmhzdogfcfnjyvvzmgxn/ImageReflection_Prefix.pch.gch
+xImageReflection_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@37"Precompile ImageReflection_Prefix.pch310866101#310866102#0(0"0(0#0#62"/Users/alex/Desktop/ImageReflection/ImageReflection_Prefix.pch8607054528#1915"    cd /Users/alex/Desktop/ImageReflection    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.0.sdk -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -iquote /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-generated-files.hmap -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-own-target-headers.hmap -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-all-target-headers.hmap -iquote /Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/ImageReflection-project-headers.hmap -F/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator -I/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/include -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/DerivedSources/i386 -I/Users/alex/Desktop/ImageReflection/build/ImageReflection.build/Debug-iphonesimulator/ImageReflection.build/DerivedSources -c /Users/alex/Desktop/ImageReflection/ImageReflection_Prefix.pch -o /var/folders/CW/CW-brwKPHhWCoBqjsH0UTU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageReflection_Prefix-fgoruochkmhzdogfcfnjyvvzmgxn/ImageReflection_Prefix.pch.gch0#
+
+CTouch /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app
+s310866103.476227
+e310866103.478903
+r1
+xTouch
+x/Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app
+lSLF07#2@89"Touch /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app310866103#310866103#0(0"0(0#0#0"8614430304#280"    cd /Users/alex/Desktop/ImageReflection    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/alex/Desktop/ImageReflection/build/Debug-iphonesimulator/ImageReflection.app0#
+
