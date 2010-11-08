@@ -1,0 +1,6 @@
+This app itself has a picture of a monkey and a reflection of that picture below it.  This demonstrates how to use a simple addition to UIImage allowing two methods of reflecting images.  Call the following methods to reflect a UIImage:
+
+- (UIImage *)reflectionWithHeight:(int)height;
+- (UIImage *)reflectionWithAlpha:(float)pcnt;
+
+Note that this automatically flips the image for you.  Do not do that manually.

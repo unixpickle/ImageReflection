@@ -230,6 +230,8 @@
 			<key>Layout</key>
 			<array>
 				<dict>
+					<key>BecomeActive</key>
+					<true/>
 					<key>ContentConfiguration</key>
 					<dict>
 						<key>PBXBottomSmartGroupGIDs</key>
@@ -272,7 +274,7 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>5</integer>
+									<integer>6</integer>
 									<integer>1</integer>
 									<integer>0</integer>
 								</array>
@@ -308,14 +310,12 @@
 					<key>Dock</key>
 					<array>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>ImageReflectionViewController.m</string>
+								<string>UIImage+Reflection.h</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -323,18 +323,19 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>ImageReflectionViewController.m</string>
+										<string>UIImage+Reflection.h</string>
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>FA9EE281128772FD007C03E3</string>
+										<string>FA5CB18B1287756300B6AE16</string>
 										<key>history</key>
 										<array>
 											<string>FA9EE20F12877056007C03E3</string>
-											<string>FA9EE27B128772F0007C03E3</string>
-											<string>FA9EE27C128772F0007C03E3</string>
-											<string>FA9EE27D128772F0007C03E3</string>
-											<string>FA9EE27E128772F0007C03E3</string>
+											<string>FA5CB1821287740D00B6AE16</string>
+											<string>FA5CB1831287740D00B6AE16</string>
+											<string>FA5CB1841287740D00B6AE16</string>
+											<string>FA5CB1851287740D00B6AE16</string>
+											<string>FA5CB1861287740D00B6AE16</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -346,14 +347,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {580, 277}}</string>
+								<string>{{0, 0}, {580, 269}}</string>
 								<key>RubberWindowFrame</key>
 								<string>149 346 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>277pt</string>
+							<string>269pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -366,14 +367,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 282}, {580, 181}}</string>
+								<string>{{0, 274}, {580, 189}}</string>
 								<key>RubberWindowFrame</key>
 								<string>149 346 788 504 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>189pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -392,9 +393,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>FA9EE20712877023007C03E3</string>
+				<string>FA5CB1881287740D00B6AE16</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>FA9EE20812877023007C03E3</string>
+				<string>FA5CB1891287740D00B6AE16</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -532,10 +533,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C78EAAD065D492600B07095</string>
-		<string>1CD10A99069EF8BA00B06720</string>
 		<string>FA9EE1EE12876F92007C03E3</string>
-		<string>/Users/alex/Desktop/ImageReflection/ImageReflection.xcodeproj</string>
+		<string>/Users/alex/xCode/git/ImageReflection/ImageReflection.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>149 346 788 504 0 0 1920 1058 </string>
@@ -559,7 +558,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>UIImage+Reflection.m</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -576,8 +575,6 @@
 							<string>218pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -617,7 +614,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>FA9EE1EE12876F92007C03E3</string>
-				<string>FA9EE1EF12876F92007C03E3</string>
+				<string>FA5CB18A1287740D00B6AE16</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
