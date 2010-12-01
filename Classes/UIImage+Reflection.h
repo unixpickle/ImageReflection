@@ -13,5 +13,6 @@
 
 - (UIImage *)reflectionWithHeight:(int)height;
 - (UIImage *)reflectionWithAlpha:(float)pcnt;
+- (UIImage *)reflectionRotatedWithAlpha:(float)pcnt;
 
 @end

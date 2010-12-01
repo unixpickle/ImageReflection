@@ -33,6 +33,10 @@ CGImageRef CreateGradientImage (int pixelsWide, int pixelsHigh, CGFloat endPoint
 	CGPoint gradientStartPoint = CGPointZero;
 	CGPoint gradientEndPoint = CGPointMake(0, endPoint);
 	
+	if (endPoint < 0) {
+		gradientEndPoint = CGPointMake(0, -endPoint);
+	}
+	
 	// draw the gradient into the gray bitmap context
 	CGContextDrawLinearGradient(gradientBitmapContext, grayScaleGradient, gradientStartPoint,
 								gradientEndPoint, kCGGradientDrawsAfterEndLocation);
@@ -40,6 +44,17 @@ CGImageRef CreateGradientImage (int pixelsWide, int pixelsHigh, CGFloat endPoint
 	
 	// convert the context into a CGImageRef and release the context
 	theCGImage = CGBitmapContextCreateImage(gradientBitmapContext);
+	
+	if (endPoint < 0) {
+		// rotate
+		CGContextClearRect(gradientBitmapContext, CGRectMake(0, 0, pixelsWide, pixelsHigh));
+		CGContextTranslateCTM(gradientBitmapContext, 0.0, pixelsHigh);
+		CGContextScaleCTM(gradientBitmapContext, 1.0, -1.0);
+		CGContextDrawImage(gradientBitmapContext, CGRectMake(0, 0, pixelsWide, pixelsHigh), theCGImage);
+		CGImageRelease(theCGImage);
+		theCGImage = CGBitmapContextCreateImage(gradientBitmapContext);
+	}
+	
 	CGContextRelease(gradientBitmapContext);
 	
 	// return the imageref containing the gradient
@@ -63,6 +78,44 @@ static CGContextRef MyCreateBitmapContext (int pixelsWide, int pixelsHigh) {
 
 @implementation UIImage (Reflection)
 
+- (UIImage *)reflectionRotatedWithAlpha:(float)pcnt {
+	int height = self.size.height;
+	UIImage * fromImage = self;
+	pcnt = 1.0 / pcnt;
+	
+	// create a bitmap graphics context the size of the image
+	CGContextRef mainViewContentContext = MyCreateBitmapContext(fromImage.size.width, height);
+	
+	// create a 2 bit CGImage containing a gradient that will be used for masking the 
+	// main view content to create the 'fade' of the reflection.  The CGImageCreateWithMask
+	// function will stretch the bitmap image as required, so we can create a 1 pixel wide gradient
+	CGImageRef gradientMaskImage = CreateGradientImage(1, height, -(height * pcnt));
+	
+	// create an image by masking the bitmap of the mainView content with the gradient view
+	// then release the  pre-masked content bitmap and the gradient bitmap
+	CGContextClipToMask(mainViewContentContext, CGRectMake(0.0, 0.0, fromImage.size.width, height), gradientMaskImage);
+	CGImageRelease(gradientMaskImage);
+	
+	// In order to grab the part of the image that we want to render, we move the context origin to the
+	// height of the image that we want to capture, then we flip the context so that the image draws upside down.
+	// CGContextTranslateCTM(mainViewContentContext, 0.0, height);
+	// CGContextScaleCTM(mainViewContentContext, 1.0, -1.0);
+	
+	// draw the image into the bitmap context
+	CGContextDrawImage(mainViewContentContext, CGRectMake(0, 0, fromImage.size.width, fromImage.size.height), [fromImage CGImage]);
+	
+	// create CGImageRef of the main view bitmap content, and then release that bitmap context
+	CGImageRef reflectionImage = CGBitmapContextCreateImage(mainViewContentContext);
+	CGContextRelease(mainViewContentContext);
+	
+	// convert the finished reflection image to a UIImage 
+	UIImage * theImage = [UIImage imageWithCGImage:reflectionImage];
+	// image is retained by the property setting above, so we can release the original
+	CGImageRelease(reflectionImage);
+	
+	return theImage;
+}
+
 - (UIImage *)reflectionWithHeight:(int)height {
 	if (height = -1) {
 		height = [self size].height;
@@ -73,7 +126,7 @@ static CGContextRef MyCreateBitmapContext (int pixelsWide, int pixelsHigh) {
     UIImage * fromImage = self;
 	
 	// create a bitmap graphics context the size of the image
-	CGContextRef mainViewContentContext = MyCreateBitmapContext(fromImage.size.width, height);
+	CGContextRef mainViewContentContext = MyCreateBitmapContext(fromImage.size.width, fromImage.size.height);
 	
 	// create a 2 bit CGImage containing a gradient that will be used for masking the 
 	// main view content to create the 'fade' of the reflection.  The CGImageCreateWithMask
@@ -87,7 +140,7 @@ static CGContextRef MyCreateBitmapContext (int pixelsWide, int pixelsHigh) {
 	
 	// In order to grab the part of the image that we want to render, we move the context origin to the
 	// height of the image that we want to capture, then we flip the context so that the image draws upside down.
-	CGContextTranslateCTM(mainViewContentContext, 0.0, height);
+	CGContextTranslateCTM(mainViewContentContext, 0.0, fromImage.size.height);
 	CGContextScaleCTM(mainViewContentContext, 1.0, -1.0);
 	
 	// draw the image into the bitmap context

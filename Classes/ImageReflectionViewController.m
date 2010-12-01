@@ -34,6 +34,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 	[refView setImage:[[monkeyView image] reflectionWithAlpha:0.5]];
+	[topRef setImage:[[monkeyView image] reflectionRotatedWithAlpha:0.1]];
 }
 
 

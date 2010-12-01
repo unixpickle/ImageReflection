@@ -198,6 +198,7 @@
 				GCC_PREFIX_HEADER = ImageReflection_Prefix.pch;
 				INFOPLIST_FILE = "ImageReflection-Info.plist";
 				PRODUCT_NAME = ImageReflection;
+				SDKROOT = iphoneos4.2;
 			};
 			name = Debug;
 		};

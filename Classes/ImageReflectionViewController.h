@@ -12,6 +12,7 @@
 @interface ImageReflectionViewController : UIViewController {
 	UIImage * myImage;
 	IBOutlet UIImageView * monkeyView;
+	IBOutlet UIImageView * topRef;
 	IBOutlet UIImageView * refView;
 }
 
